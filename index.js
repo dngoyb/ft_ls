@@ -16,9 +16,9 @@ fs.readdir(targetPath, async (err, filenames) => {
 			const stats = await lstat(path.join(targetPath, filename));
 
 			if (stats.isFile()) {
-				console.log(filename);
+				console.log("'\x1b[33m%s\x1b[0m'", filename);
 			} else {
-				console.log(filename);
+				console.log('\x1b[36m%s\x1b[0m', filename);
 			}
 		} catch (error) {
 			throw new Error(error);
