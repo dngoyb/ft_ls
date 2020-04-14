@@ -1,0 +1,24 @@
+{
+	"name": "ft_ls",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/dngoyb/ft_ls.git"
+	},
+	"author": "dngoyb <dngoyb@gmail.com>",
+	"license": "MIT",
+	"description": "unix and linux emplimentation of ls using node",
+	"bugs": {
+		"url": "https://github.com/dngoyb/ft_ls/issues"
+	},
+	"homepage": "https://github.com/dngoyb/ft_ls#readme",
+	"dependencies": {},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"ft_ls": "index.js"
+	}
+}
